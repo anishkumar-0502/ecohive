@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Choosing the Right RO System for Your Industrial Needs",
+    "category": "Water Purification",
+    "image": "/assets/images/blog/eCommerce-blog.png",
+    "excerpt": "Learn about the critical factors to consider when selecting an industrial Reverse Osmosis system.",
+    "content": "Selecting the right Reverse Osmosis (RO) system for industrial applications requires a deep understanding of your water source and the required purity levels. Industrial RO systems are designed to remove up to 99% of dissolved salts, particles, and organic matter. Key considerations include the flow rate (measured in gallons per day), the quality of the source water, and the specific needs of your facility. Modern RO systems from EcoHive incorporate energy-efficient membranes and automated monitoring to ensure consistent performance and reduced operating costs.",
+    "author": "Dr. Sarah Chen",
+    "date": "05th Nov 2023",
+    "readTime": "5 min read",
+    "tags": ["Water", "RO System", "Industrial"]
+  },
+  {
+    "id": 2,
+    "title": "The Impact of HEPA Filtration on Indoor Air Quality",
+    "category": "Air Filtering",
+    "image": "/assets/images/blog/Gaming-blog.png",
+    "excerpt": "Discover how HEPA filters work to eliminate pollutants and improve the air you breathe.",
+    "content": "High-Efficiency Particulate Air (HEPA) filters are a cornerstone of modern air purification. These filters are capable of trapping 99.97% of particles that are 0.3 microns in diameter. In commercial and industrial settings, maintaining high air quality is not just about comfort; it's about health and safety. EcoHive's HEPA solutions are designed to handle high volumes of air, removing dust, pollen, mold, and even airborne pathogens. By integrating HEPA filtration into your HVAC system, you can significantly reduce the risk of respiratory issues and improve overall productivity.",
+    "author": "Marcus Thorne",
+    "date": "24th March 2023",
+    "readTime": "8 min read",
+    "tags": ["Air Quality", "HEPA", "Health"]
+  },
+  {
+    "id": 3,
+    "title": "Precision Agriculture: The Role of Soil Sensors",
+    "category": "Agricultural Machinery",
+    "image": "/assets/images/blog/Electronic-blog.png",
+    "excerpt": "How smart soil sensors are revolutionizing farming by providing real-time data on soil health.",
+    "content": "Precision agriculture is transforming the way we farm, and soil sensors are at the heart of this revolution. These devices provide real-time data on soil moisture, temperature, and nutrient levels, allowing farmers to make informed decisions about irrigation and fertilization. By using EcoHive's digital soil meters, farmers can optimize their resource usage, leading to higher crop yields and more sustainable farming practices. The data collected can be analyzed to identify trends and predict future needs, ensuring that every crop gets exactly what it needs to thrive.",
+    "author": "Elena Rodriguez",
+    "date": "30th Jan 2023",
+    "readTime": "10 min read",
+    "tags": ["Agriculture", "Sensors", "Sustainability"]
+  },
+  {
+    "id": 4,
+    "title": "Sustainable Water Management for Modern Greenhouse Farming",
+    "category": "Water Purification",
+    "image": "/assets/images/blog/marketing-blog.png",
+    "excerpt": "Exploring innovative water recycling and purification techniques for greenhouse environments.",
+    "content": "Greenhouse farming offers a controlled environment for crop growth, but it also presents unique challenges in water management. Sustainable practices such as water recycling and advanced purification are essential for long-term viability. EcoHive provides integrated water solutions that include UV sterilization and filtration systems specifically designed for greenhouse use. These systems ensure that water is free from pathogens while maintaining the necessary minerals for plant growth. Implementing these technologies not only saves water but also protects the local environment from runoff.",
+    "author": "David Attwood",
+    "date": "10 Feb 2023",
+    "readTime": "5 min read",
+    "tags": ["Greenhouse", "Water Recycling", "Sustainability"]
+  }
+]
