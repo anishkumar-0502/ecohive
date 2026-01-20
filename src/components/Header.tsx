@@ -2,14 +2,13 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import productsData from "@/data/products.json";
 import { useCart, Currency } from "@/context/CartContext";
 import { useWishlist } from "@/context/WishlistContext";
 
 const Header = () => {
   const pathname = usePathname();
-  const router = useRouter();
   const {
     cart,
     totalItems,
@@ -23,9 +22,6 @@ const Header = () => {
 
   const { totalItems: totalWishlistItems } = useWishlist();
 
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchCategory, setSearchCategory] = useState("All");
-  const [showRecommendations, setShowRecommendations] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
 
@@ -35,30 +31,6 @@ const Header = () => {
   }, [pathname]);
 
   const categories = Array.from(new Set(productsData.map((p) => p.category)));
-
-  const recommendations =
-    searchQuery.length > 1
-      ? productsData
-          .filter((p) => {
-            const matchesCategory =
-              searchCategory === "All" || p.category === searchCategory;
-            const matchesSearch = p.name
-              .toLowerCase()
-              .includes(searchQuery.toLowerCase());
-            return matchesCategory && matchesSearch;
-          })
-          .slice(0, 5)
-      : [];
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    const params = new URLSearchParams();
-    if (searchQuery) params.append("search", searchQuery);
-    if (searchCategory !== "All") params.append("category", searchCategory);
-
-    setShowRecommendations(false);
-    router.push(`/products?${params.toString()}`);
-  };
 
   const handleComingSoon = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -140,74 +112,12 @@ const Header = () => {
       <div className="header-middle">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-3 col-md-3 col-7">
+            <div className="col-lg-4 col-md-4 col-7">
               <Link className="navbar-brand" href="/">
                 <img src="/assets/images/logo/ecohive.png" alt="Logo" />
               </Link>
             </div>
-            <div className="col-lg-5 col-md-7 d-xs-none">
-              <div className="main-menu-search">
-                <form
-                  className="navbar-search search-style-5"
-                  onSubmit={handleSearch}
-                >
-                  <div className="search-select">
-                    <div className="select-position">
-                      <select
-                        id="select1"
-                        value={searchCategory}
-                        onChange={(e) => setSearchCategory(e.target.value)}
-                      >
-                        <option>All</option>
-                        {categories.map((cat) => (
-                          <option key={cat} value={cat}>
-                            {cat}
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-                  </div>
-                  <div className="search-input">
-                    <input
-                      type="text"
-                      placeholder="Search"
-                      value={searchQuery}
-                      onChange={(e) => {
-                        setSearchQuery(e.target.value);
-                        setShowRecommendations(true);
-                      }}
-                      onFocus={() => setShowRecommendations(true)}
-                      onBlur={() =>
-                        setTimeout(() => setShowRecommendations(false), 200)
-                      }
-                    />
-                    {showRecommendations && recommendations.length > 0 && (
-                      <div className="search-recommendations">
-                        <ul>
-                          {recommendations.map((item) => (
-                            <li key={item.id}>
-                              <Link href={`/products/${item.id}`}>
-                                <img src={item.image} alt={item.name} />
-                                <div className="info">
-                                  <h6>{item.name}</h6>
-                                  <span>{formatPrice(item.price)}</span>
-                                </div>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                  <div className="search-btn">
-                    <button type="submit">
-                      <i className="lni lni-search-alt"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-2 col-5">
+            <div className="col-lg-8 col-md-8 col-5">
               <div className="middle-right-area">
                 <div className="nav-hotline">
                   <i className="lni lni-phone"></i>

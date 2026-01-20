@@ -1,137 +1,177 @@
 [
   {
-    "id": "1",
-    "name": "RO Water Purifier",
-    "category": "Water purification and filters",
     "brand": "PureLife",
-    "price": 299.0,
+    "category": "Water purification and filters",
+    "description": "High-quality RO water purifier for clean and safe drinking water.",
+    "features": [
+      "Reverse Osmosis",
+      "UV Purification",
+      "Mineral Addition"
+    ],
+    "id": "1",
     "image": "/assets/images/products/RO-Water-Purifier.png",
     "images": [
       "/assets/images/products/RO-Water-Purifier.png",
       "/assets/images/products/Smart-RO-Purifier.jpeg"
     ],
-    "description": "High-quality RO water purifier for clean and safe drinking water.",
-    "features": ["Reverse Osmosis", "UV Purification", "Mineral Addition"]
+    "name": "RO Water Purifier",
+    "price": 299
   },
   {
-    "id": "2",
-    "name": "Activated Carbon Filter",
-    "category": "Water purification and filters",
     "brand": "PureLife",
-    "price": 49.0,
+    "category": "Water purification and filters",
+    "description": "Effective carbon filter for removing odors and chlorine from water.",
+    "features": [
+      "Carbon Block",
+      "Sediment Removal",
+      "Easy Installation"
+    ],
+    "id": "2",
     "image": "/assets/images/products/Activated-Carbon-Filter.png",
     "images": [
       "/assets/images/products/Activated-Carbon-Filter.png"
     ],
-    "description": "Effective carbon filter for removing odors and chlorine from water.",
-    "features": ["Carbon Block", "Sediment Removal", "Easy Installation"]
+    "name": "Activated Carbon Filter",
+    "price": 49
   },
   {
-    "id": "3",
-    "name": "UV Sterilizer",
-    "category": "Water purification and filters",
     "brand": "EcoWater",
-    "price": 120.0,
+    "category": "Water purification and filters",
+    "description": "Powerful UV sterilizer to eliminate bacteria and viruses.",
+    "features": [
+      "Stainless Steel Body",
+      "High UV Intensity",
+      "Long Life"
+    ],
+    "id": "3",
     "image": "/assets/images/products/UV-Sterilizer.png",
     "images": [
       "/assets/images/products/UV-Sterilizer.png"
     ],
-    "description": "Powerful UV sterilizer to eliminate bacteria and viruses.",
-    "features": ["Stainless Steel Body", "High UV Intensity", "Long Life"]
+    "name": "UV Sterilizer",
+    "price": 120
   },
   {
-    "id": "4",
-    "name": "HEPA Air Purifier",
-    "category": "Air filtering",
     "brand": "AirFresh",
-    "price": 199.0,
+    "category": "Air filtering",
+    "description": "Advanced HEPA filter to remove 99.97% of airborne particles.",
+    "features": [
+      "True HEPA Filter",
+      "Quiet Operation",
+      "Smart Sensors"
+    ],
+    "id": "4",
     "image": "/assets/images/products/HEPA-Air-Purifier.png",
     "images": [
       "/assets/images/products/HEPA-Air-Purifier.png",
       "/assets/images/products/HEPA-Air-Filter.jpeg"
     ],
-    "description": "Advanced HEPA filter to remove 99.97% of airborne particles.",
-    "features": ["True HEPA Filter", "Quiet Operation", "Smart Sensors"]
+    "name": "HEPA Air Purifier",
+    "price": 199
   },
   {
-    "id": "5",
-    "name": "Ionic Air Ionizer",
-    "category": "Air filtering",
     "brand": "AirFresh",
-    "price": 89.0,
+    "category": "Air filtering",
+    "description": "Ionic air cleaner for refreshing the indoor environment.",
+    "features": [
+      "Negative Ion Generation",
+      "Filterless Design",
+      "Energy Efficient"
+    ],
+    "id": "5",
     "image": "/assets/images/products/Ionic-Air-Ionizer.jpeg",
     "images": [
       "/assets/images/products/Ionic-Air-Ionizer.jpeg",
       "/assets/images/products/Pro-Air-Station.jpeg"
     ],
-    "description": "Ionic air cleaner for refreshing the indoor environment.",
-    "features": ["Negative Ion Generation", "Filterless Design", "Energy Efficient"]
+    "name": "Ionic Air Ionizer",
+    "price": 89
   },
   {
-    "id": "6",
-    "name": "Industrial Air Scrubber",
-    "category": "Air filtering",
     "brand": "EcoWater",
-    "price": 899.0,
+    "category": "Air filtering",
+    "description": "Heavy-duty air scrubber for large industrial spaces.",
+    "features": [
+      "High CFM",
+      "Multi-Stage Filtration",
+      "Portable"
+    ],
+    "id": "6",
     "image": "/assets/images/products/Industrial-Air-Scrubber.avif",
     "images": [
       "/assets/images/products/Industrial-Air-Scrubber.avif"
     ],
-    "description": "Heavy-duty air scrubber for large industrial spaces.",
-    "features": ["High CFM", "Multi-Stage Filtration", "Portable"]
+    "name": "Industrial Air Scrubber",
+    "price": 899
   },
   {
-    "id": "7",
-    "name": "Compact Tractor",
-    "category": "Agricultural machineries",
     "brand": "AgriTech",
-    "price": 15000.0,
+    "category": "Agricultural machineries",
+    "description": "Versatile compact tractor for various farming tasks.",
+    "features": [
+      "4WD",
+      "Fuel Efficient",
+      "Multi-Attachment Support"
+    ],
+    "id": "7",
     "image": "/assets/images/products/Compact-Tractor.jpeg",
     "images": [
       "/assets/images/products/Compact-Tractor.jpeg"
     ],
-    "description": "Versatile compact tractor for various farming tasks.",
-    "features": ["4WD", "Fuel Efficient", "Multi-Attachment Support"]
+    "name": "Compact Tractor",
+    "price": 15000
   },
   {
-    "id": "8",
-    "name": "Grain Harvester",
-    "category": "Agricultural machineries",
     "brand": "AgriTech",
-    "price": 45000.0,
+    "category": "Agricultural machineries",
+    "description": "Efficient harvester for quick and clean grain collection.",
+    "features": [
+      "Wide Header",
+      "Clean Grain Elevator",
+      "Large Hopper"
+    ],
+    "id": "8",
     "image": "/assets/images/products/Grain-Harvester.jpeg",
     "images": [
       "/assets/images/products/Grain-Harvester.jpeg"
     ],
-    "description": "Efficient harvester for quick and clean grain collection.",
-    "features": ["Wide Header", "Clean Grain Elevator", "Large Hopper"]
+    "name": "Grain Harvester",
+    "price": 45000
   },
   {
-    "id": "9",
-    "name": "Automatic Seeder",
-    "category": "Agricultural machineries",
     "brand": "AgriTech",
-    "price": 5500.0,
-    "image": "https://images.unsplash.com/photo-1530906358829-e84b2769270f?w=500",
+    "category": "Agricultural machineries",
+    "description": "Precision seeder for optimal crop spacing and growth.",
+    "features": [
+      "Adjustable Depth",
+      "Multi-Seed Support",
+      "Tractor Mounted"
+    ],
+    "id": "9",
+    "image": "/assets/images/products/Grain-Harvester.jpeg",
     "images": [
       "https://images.unsplash.com/photo-1530906358829-e84b2769270f?w=800",
       "https://images.unsplash.com/photo-1622383529984-6014421b7194?w=800"
     ],
-    "description": "Precision seeder for optimal crop spacing and growth.",
-    "features": ["Adjustable Depth", "Multi-Seed Support", "Tractor Mounted"]
+    "name": "Automatic Seeder",
+    "price": 5500
   },
   {
-    "id": "10",
-    "name": "Solar Water Pump",
-    "category": "Agricultural machineries",
     "brand": "SolarFlow",
-    "price": 750.0,
+    "category": "Agricultural machineries",
+    "description": "Eco-friendly solar powered water pump for efficient irrigation.",
+    "features": [
+      "Solar Powered",
+      "High Flow Rate",
+      "Maintenance Free"
+    ],
+    "id": "10",
     "image": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=500",
     "images": [
       "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=800",
       "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800"
     ],
-    "description": "Eco-friendly solar powered water pump for efficient irrigation.",
-    "features": ["Solar Powered", "High Flow Rate", "Maintenance Free"]
+    "name": "Solar Water Pump",
+    "price": 750
   }
 ]
